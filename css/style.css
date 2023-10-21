@@ -177,7 +177,7 @@ body {
   font-size: 40px;
   line-height: 55px;
   color: #fafafc;
-  margin: 25px 0px 25px 30px;
+  margin: 0 25px 25px 40px;
 }
 
 .komment {
@@ -207,6 +207,7 @@ body {
 
 }
 
+
 /* Contacts Section */
 .contacts-section-type {
   font-style: normal;
@@ -217,12 +218,40 @@ body {
   margin-right: 5px;
 }
 
+ 
+.bi-phone,
+.bi-house-door,
+.bi-envelope,
+.bi-passport {
+  color: #fb6d3a;
+  font-size: 16px;
+  /* margin: 0 10px 0 0; */
+  padding: 0 10px 0 0;
+  line-height: 30px;
+
+
+}
+
+.bi-plus-circle-dotted {
+  padding: 0 10px 0 0;
+}
+
+.sprach_level,
+.kentnisse_level,
+.fachkentnisse_level {
+  color: #fcfafa;
+  margin: 0 0 0 12px;
+  
+  
+}
+
+
 .contacts-section-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #8e949c;
+  color: #c3c5c7;
 
 }
 
@@ -246,7 +275,11 @@ body {
 .ausbildung-item,
 .interessen-item {
   color: #fb6d3a;
-  margin-bottom: 20px;
+  height: 55px;
+  margin-left: 5px;
+  
+  
+  
 }
 
 .sprache-item-text,
