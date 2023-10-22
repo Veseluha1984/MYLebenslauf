@@ -132,12 +132,18 @@ body {
 }
 
 /* Education */
+
+
+
+
 .my-education-header {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 27px;
+  /* line-height: 27px; */
   color: #000000;
+  margin: 10px 0 10px 0;
+  
   
   
   
@@ -147,8 +153,10 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 20px;
+  /* line-height: 20px; */
   color: #fb6d3a;
+  margin: 35px 0 10px 0;
+  
   
   
 }
@@ -157,8 +165,9 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 17px;
+  /* line-height: 17px; */
   color: #000000;
+  margin: 10px 0 10px 0;
   
 }
 
@@ -240,7 +249,7 @@ body {
 .kentnisse_level,
 .fachkentnisse_level {
   color: #fcfafa;
-  margin: 0 0 0 12px;
+  margin: 5px 0 0 4px;
   
   
 }
@@ -264,7 +273,7 @@ body {
 .fachkenntnisse-list,
 .ausbildung-list,
 .interessen-list {
-  padding: 0 10px 0px 17px;
+  padding: 0 10px 0px 10px;
   
 
 }
@@ -275,16 +284,17 @@ body {
 .ausbildung-item,
 .interessen-item {
   color: #fb6d3a;
-  height: 55px;
+  height: 50px;
   margin-left: 5px;
   
-  
-  
+}
+.interessen-item-person {
+  color: #fb6d3a;
+  height: 30px;
+  margin-left: 5px;
 }
 
 .sprache-item-text,
-.kenntnisse-item-text,
-.fachkenntnisse-item-text,
 .ausbildung-item-text,
 .interessen-item-text  {
   font-style: normal;
