@@ -179,6 +179,10 @@ body {
   padding: 40px 0;
 }
 
+img {
+  padding-left: 6px;
+}
+
 
 .about-me-name {
   font-style: normal;
