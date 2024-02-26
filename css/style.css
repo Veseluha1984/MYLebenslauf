@@ -161,7 +161,7 @@ body {
   
 }
 
-.my-education-faculty {
+.my-education-faculty, .my-education-schweiz {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -190,7 +190,7 @@ img {
   font-size: 40px;
   line-height: 55px;
   color: #fafafc;
-  margin: 0 25px 25px 40px;
+  margin: auto 25px 25px;
 }
 
 .komment {
@@ -290,6 +290,10 @@ img {
   color: #fb6d3a;
   height: 50px;
   margin-left: 5px;
+}
+
+.fachkenntnisse-item {
+ height: 30px;
   
 }
 .interessen-item-person {
