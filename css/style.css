@@ -11,34 +11,59 @@ body {
   background-color: #f0f0f0; /* Задает цвет фона */
 }
 
+
+
 .header-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-left: 300px;
 }
+
+
+
+i {
+  margin: 8px;
+  mar/* Отступ между иконкой и текстом */
+  color: #000000; /* Цвет иконок */
+}
+
+
 
 .text-content {
   flex: 1;
 }
 
+.foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирует содержимое по горизонтали */
+}
+
 .foto img {
   max-width: 250px; /* Adjust the size as needed */
   height: auto;
-  margin: 50px 130px 0 0;
+  ma
 }
+
+.photo-caption {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px; /* Отступ сверху */
+}
+
 
 .beruf {
   font-size: 20px;
-  font-weight: bold; /* Добавлено для жирного шрифта */
-  ;
+  font-weight: bold; /* Добавлено для жирного шрифта */;
 
  
 }
 
 header h1 {
-  margin: 0;
+ 
   font-size: 32px;
+  color: #2f5496;
 }
 
 header p {
@@ -46,7 +71,7 @@ header p {
 }
 
 header a {
-  color: #007bff;
+  color: #2f5496;
   text-decoration: none;
 }
 
@@ -54,9 +79,13 @@ header a:hover {
   text-decoration: underline;
 }
 
-section h2 {
-  border-bottom: 2px solid #007bff;
- 
+
+
+.kurzprofil {
+
+  line-height: 1.8;
+  margin-left: 260px;
+  text-align: justify; /* Выровнять текст по ширине */ /* Установите нужное значение для расстояния между строками */
 }
 
 .skills {
@@ -78,27 +107,17 @@ section h2 {
   gap: 20px;
 }
 
-.experience-item {
-  display: contents;
-}
 
-.experience-item h3 {
-  grid-column: 1;
-}
+
+
 
 .experience {
   display: grid;
-  grid-template-columns: 250px 1fr; /* Установлен фиксированный размер для первого столбца */
+  grid-template-columns: 300px 1fr; /* Установлен фиксированный размер для первого столбца */
   gap: 20px;
 }
 
-.experience-item {
-  display: contents;
-}
 
-.experience-item h3 {
-  grid-column: 1;
-}
 
 .experience-details {
   grid-column: 2;
@@ -117,7 +136,7 @@ section h2 {
 }
 
 .experience-details ul li {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .firma-info {
@@ -128,7 +147,7 @@ section h2 {
 
 .company {
   font-weight: bold; /* Пример стиля */
-  color: #007bff;
+  color: #2f5496;
 
    /* Пример стиля */
 }
@@ -140,15 +159,79 @@ section h2 {
 }
 
 .beruf_name {
-  font-weight: bold; /* Пример стиля */}
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+   /* Пример стиля */}
 
-  .special-item {
-    list-style-type: none; /* Убирает старый значок списка */
+   .special-item p, .zumbeispiele    {
+    margin: 0;
+    color: #2f5496;
+    font-style: italic; /* Курсивное начертание */
   }
   
   .special-item::before {
     margin-left: -25px;
     content: "💎"; /* Замените на нужный вам символ */
-    
     margin-right: 5px; /* Отступ между значком и текстом */
   }
+  
+  section {
+    margin-bottom: 20px; /* Отступ снизу для раздела */
+  }
+  
+  section h2, header h2 {
+    border-bottom: 2px solid #2f5496;
+    padding-bottom: 5px; /* Отступ снизу для подчеркивания */
+    margin-bottom: 20px; /* Отступ снизу для заголовка */
+  }
+  
+  .experience {
+    display: grid;
+    grid-template-columns: 250px 1fr; /* Установлен фиксированный размер для первого столбца */
+    gap: 20px;
+  }
+  
+  .experience-item {
+    display: contents;
+    margin-bottom: 20px;
+    /* Установите нужное значение для отступа после каждого раздела */
+  }
+  
+  .experience-item h3 {
+    grid-column: 1;
+    
+    margin-left: 10px; /* Удалить отступы у заголовков */
+  }
+  
+  .experience-details {
+    grid-column: 2;
+    margin-left: 0; /* Удален отступ */
+  }
+  
+  .experience-details   {
+    margin: 0; /* Удалить отступы у параграфов */
+  }
+  
+  .experience-item li {
+    margin-left: 25px; /* Удалить отступы у списков */
+  }
+
+    .duration {
+    font-style: italic;
+    font-size: 0.9em; /* Уменьшенный размер шрифта */
+    font-weight: normal; /* Убирает жирное начертание */
+  }
+  
+  footer {
+    text-align: center; /* Центрирует текст */
+    padding: 20px 0; /* Отступы сверху и снизу */
+   
+    color: #2f5496; /* Цвет текста */
+    font-size: 14px; /* Размер шрифта */
+  }
+  
+  footer p {
+    margin: 0; /* Убирает отступы */
+  }
+  
