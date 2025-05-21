@@ -319,6 +319,26 @@
     </footer>
   </div>
 
+    <script>
+        function calculateMonths(startDate, endDate, addOneMonth = true) {
+        const start = new Date(startDate);
+        const end = new Date(endDate);
+        const months = (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth());
+        return addOneMonth ? months + 1 : months;
+        }
+    
+        function formatDuration(months) {
+        const years = Math.floor(months / 12);
+        const remainingMonths = months % 12;
+        if (years > 0) {
+            const yearLabel = years === 1 ? 'Jahr' : 'Jahre';
+            const monthLabel = remainingMonths === 1 ? 'Monat' : 'Monaten';
+            return `<span class="duration">${years} ${yearLabel}${remainingMonths > 0 ? ` und ${remainingMonths} ${monthLabel}` : ''}</span>`;
+        } else {
+            return `<span class="duration">${months} Monate</span>`;
+        }
+        }
+
   <script>
     function calculateMonths(startDate, endDate, addOneMonth = true) {
       const start = new Date(startDate);
